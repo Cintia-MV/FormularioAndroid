@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">formulario</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="clave">Contraseña</string>
+    <string name="btnCrear">Crear Cuenta</string>
+
+    //String activity_mostrar_datos
+    <string name="datosIngresados">Los datos ingresados son los siguientes: </string>
+
+</resources>
