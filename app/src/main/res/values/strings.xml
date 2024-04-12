@@ -8,5 +8,6 @@
 
     //String activity_mostrar_datos
     <string name="datosIngresados">Los datos ingresados son los siguientes: </string>
+    <string name="btnVolver">Volver</string>
 
 </resources>

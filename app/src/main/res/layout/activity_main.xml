@@ -5,6 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D326706D"
+    android:outlineSpotShadowColor="#FAF6F6"
     tools:context=".MainActivity">
 
     <ImageView
@@ -29,6 +31,14 @@
         android:ems="10"
         android:hint="@string/nombre"
         android:inputType="text"
+        android:outlineAmbientShadowColor="#FAF6F6"
+        android:outlineSpotShadowColor="#F3EFEF"
+        android:shadowColor="#E8E3E3"
+        android:textColor="@color/material_dynamic_neutral95"
+        android:textColorHighlight="@color/material_dynamic_neutral80"
+        android:textColorHint="#F8F0F0"
+        android:textColorLink="#FAF2F2"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -43,6 +53,13 @@
         android:ems="10"
         android:hint="@string/apellido"
         android:inputType="text"
+        android:outlineAmbientShadowColor="#F8F4F4"
+        android:outlineSpotShadowColor="#F4F0F0"
+        android:shadowColor="#F6F0F0"
+        android:textColor="#FDF9F9"
+        android:textColorHighlight="#EFEAEA"
+        android:textColorHint="#F6EEEE"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nombre" />
@@ -57,6 +74,11 @@
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
+        android:outlineAmbientShadowColor="#F6F4F4"
+        android:textColor="#F4F2F2"
+        android:textColorHighlight="#F6F3F3"
+        android:textColorHint="#F6F1F1"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/apellido" />
@@ -71,6 +93,11 @@
         android:ems="10"
         android:hint="@string/clave"
         android:inputType="textPassword"
+        android:outlineAmbientShadowColor="#FAF7F7"
+        android:textColor="#F6F2F2"
+        android:textColorHighlight="#F3EBEB"
+        android:textColorHint="#F8F1F1"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
@@ -80,7 +107,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Button"
+        android:text="@string/btnCrear"
+        android:textColorLink="#673AB7"
+        android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@+id/clave"
         tools:layout_editor_absoluteX="160dp" />
 
